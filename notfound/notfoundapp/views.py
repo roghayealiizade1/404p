@@ -17,3 +17,10 @@ def courses_list(request):
         else :
             return render(request,'not.html')
         
+def courses2(request):
+    for items in courses:
+        if items[id]=="py":
+            return render(request,'joz.html')
+        else:
+            return render(request,'not.html')
+        
